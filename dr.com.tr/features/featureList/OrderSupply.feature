@@ -4,7 +4,7 @@ Feature: Order a book from website
     When I go to website
     Then open the Login page
     And enter the username and password
-    | ulutasalkan@hotmail.com|  Aa69156915  |
+    | *******|  *******  |
     And click the Login button
 
   Scenario: Search products on Product Search
