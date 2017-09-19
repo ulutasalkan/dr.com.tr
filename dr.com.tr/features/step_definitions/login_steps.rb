@@ -8,7 +8,6 @@ Then(/^open the Login page$/) do
 end
 
 And(/^enter the username and password$/) do |info|
-  # table is a table.hashes.keys # => [:ulutasalkan@hotmail.com, :69150000]
   find_by_id("EmailField").set info.raw[0][0]
   find_by_id("PasswordField").set info.raw[0][1]
 end
